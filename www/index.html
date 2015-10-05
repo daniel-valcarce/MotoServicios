@@ -107,6 +107,8 @@
                           localStorage.setItem("telf_fijo", resp["telf_fijo"]);
                                                    
                         window.location="logeado.html";
+                       }else{
+                           alert("No Registrado")
                        }
                              }, 
                              error: function(jq, status, error){
